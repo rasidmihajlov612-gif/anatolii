@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Михайлов Анатолий Николаевич — Маленькая Якутия</title>
-<meta name="description" content="Учредитель АНО «Маленькая Якутия». Телефон +7 914 234-26-13.">
+<meta name="description" content="Учредитель АНО «Маленькая Якутия» и генеральный директор стоматологической клиники Vivat!">
 <meta name="theme-color" content="#EFE7D8">
 <meta property="og:title" content="Михайлов Анатолий Николаевич">
 <meta property="og:description" content="Учредитель АНО «Маленькая Якутия»">
@@ -67,6 +67,12 @@ main{display:flex;flex-direction:column;justify-content:center;
 .place a{display:inline-block;margin-top:10px;color:var(--larch);font-weight:700;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
 .place a:hover{color:var(--soot)}
 
+.clinic-role{margin-top:4px;color:var(--larch);font:400 16px/1.4 var(--sans)!important}
+.clinic-address{margin-top:14px;font:400 16px/1.5 var(--sans)!important}
+.contacts{list-style:none;margin-top:8px}
+.contacts li{overflow-wrap:anywhere}
+.contacts a{margin-top:4px}
+
 /* визитка */
 .emb{display:block;width:132px;height:132px;margin:0 auto 24px}
 .name{font:400 27px/1.2 var(--serif)}
@@ -105,6 +111,25 @@ main{display:flex;flex-direction:column;justify-content:center;
       <svg class="go" viewBox="0 0 40 20" aria-hidden="true"><path d="M0 10H36M28 3l8 7-8 7" fill="none" stroke="currentColor" stroke-width="2.4"/></svg>
     </a></li>
   </ul>
+
+  <section class="place" aria-labelledby="yakutia-title">
+    <h2 id="yakutia-title">Маленькая Якутия</h2>
+    <p>Павильон якутских мастеров<br>г. Казань</p>
+  </section>
+
+  <section class="place" aria-labelledby="vivat-title">
+    <h2 id="vivat-title">Стоматологическая клиника</h2>
+    <p>Vivat! «Солнечная улыбка»</p>
+    <p class="clinic-role">Генеральный директор</p>
+    <p class="clinic-address">г. Якутск, ул. Лермонтова, 38</p>
+    <ul class="contacts">
+      <li><a href="https://wa.me/79142342613">WhatsApp: 8 914 234-26-13</a></li>
+      <li><a href="tel:+79243651313">8 924 365-13-13</a></li>
+      <li>Телефон клиники: 72-50-13</li>
+      <li><a href="mailto:finvest2011-1@mail.ru">finvest2011-1@mail.ru</a></li>
+      <li><a href="https://www.instagram.com/vivat_clinika_ykt/">@vivat_clinika_ykt</a></li>
+    </ul>
+  </section>
 </main>
 <div class="relief" aria-hidden="true"></div>
 </body>
